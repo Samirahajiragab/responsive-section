@@ -28,13 +28,14 @@ section {
 .img-flex {
   display: block;
   width: 100%;
-  width: 100px;
+  width: 288px;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 45em;
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -42,24 +43,32 @@ section {
 
 section h2 {
   margin: 0;
+  margin-left: 4%;
 }
 
 section p {
   margin: 0;
+  max-width: 80%;
+  margin-left: 4%;
+  margin-bottom: 10px;
 }
 
 .section-body {
-  margin-left: 60px;
   margin-bottom: 1em;
+  margin-left: 10px;
 }
 
 .section-letter {
-  width: 10%;
+  margin-top: 16px;
+  width: 50%;
+  float: left;
+  order: 1;
 }
 
 .section-icon {
-  width: 10%;
-  order: 1;
+  margin-top: 16px;
+  width: 50%;
+  float: right;
 }
 
 @media only screen and (min-width: 25em) {
@@ -70,7 +79,8 @@ section p {
   }
 
   .section-letter, .section-icon {
-    width: 40%;
+    width: 50%;
+    margin-top: 20px;
   }
 
   .section-body {
