@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/ 1.3 Noto Sans, sans-serif;
+  font: normal 110%/ 1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -25,14 +25,14 @@ section {
   background-color: #e5c30a;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
   width: 100px;
 }
 
 .wrapper {
-  margin: 0 ;
+  margin: 1.4rem;
   max-width: 45em;
   display: flex;
   flex-wrap: wrap;
@@ -126,5 +126,12 @@ section p {
 
   .section-letter{
     margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 }
