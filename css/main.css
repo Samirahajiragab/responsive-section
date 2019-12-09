@@ -18,7 +18,7 @@ html {
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 section {
@@ -43,6 +43,7 @@ section {
 section h2 {
   margin: 0;
 }
+
 section p {
   margin: 0;
 }
@@ -53,13 +54,14 @@ section p {
 }
 
 .section-letter {
-  width: 10%
+  width: 10%;
 }
 
 .section-icon {
   width: 10%;
   order: 1;
 }
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -110,6 +112,7 @@ section p {
     margin-top: 25px;
     margin-right: 50px;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -132,9 +135,10 @@ section p {
     margin-right: 0;
   }
 
-  .section-letter{
+  .section-letter {
     margin-left: 50px;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -142,4 +146,5 @@ section p {
   html {
     font-size: 130%;
   }
+
 }
